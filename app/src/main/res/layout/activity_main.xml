@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!-- android:background="@drawable/background_menu"    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/courgette"
+            android:padding="16dp"
+            android:text="КАТАЛОГ"
+            android:textColor="@color/bun2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_busket1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Посмотреть подарок"
+            app:srcCompat="@drawable/gift" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_bread"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:padding="16dp"
+                android:text="ХЛЕБ"
+                android:textAlignment="viewStart" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="СЛОЙКА"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="viewStart"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="СДОБА"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="viewStart"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ТОРТЫ И ПИРОЖНЫЕ"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="viewStart"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ПИРОГИ"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="viewStart"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="НАПИТКИ"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="viewStart"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="КУХНЯ"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="viewStart"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ПЕЧЕНЬЕ"
+                android:padding="16dp"
+                android:textAlignment="viewStart"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
