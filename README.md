@@ -37,18 +37,35 @@ git clone https://github.com/polinio/TheBakeryApp.git
 При запуске приложения отображается анимация загрузки.
 После загрузки появляется главный экран с элементами интерфейса, включая экран с акцией.
 
+<div align="center">
+  <img src="https://github.com/polinio/TheBakeryApp/blob/master/screenshots/sc_menu.png" alt="Текст для изображения" width="250" />
+  <img src="https://github.com/polinio/TheBakeryApp/blob/master/screenshots/sc_ad.png" alt="Текст для изображения" width="250" />
+</div>
+
 - **Экран с информацией о хлебе:**
 На экране с информацией о хлебе отображается описание продукции и картинка.
 Можно вернуться назад на главный экран с помощью кнопки возврата.
+
+<div align="center">
+  <img src="https://github.com/polinio/TheBakeryApp/blob/master/screenshots/sc_bread_nutrition.png" alt="Текст для изображения" width="250" />
+</div>
 
 - **Перевернутый экран:**
 Когда экран переворачивается, все элементы автоматически адаптируются, чтобы быть видимыми.
 Приложение корректно отображает информацию и элементы даже в горизонтальной ориентации.
 
+<div align="center">
+  <img src="https://github.com/polinio/TheBakeryApp/blob/master/screenshots/sc_rotate.png" alt="Текст для изображения" width="250" />
+</div>
+
 - **Подтверждение выхода:**
 При попытке закрыть приложение появляется всплывающее окно с запросом подтверждения.
 Пользователь может выбрать "Да" для выхода или "Нет" для отмены выхода.
 
-### Видео демонстрация
+<div align="center">
+  <img src="https://github.com/polinio/TheBakeryApp/blob/master/screenshots/sc_exit.png" alt="Текст для изображения" width="250" />
+</div>
+
+### Видео-демонстрация
 Вы можете посмотреть видео демонстрацию работы приложения по следующей [ссылке](https://www.youtube.com/watch?v=uEl0bkWO6Dg).
 
